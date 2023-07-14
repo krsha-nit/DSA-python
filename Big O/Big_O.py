@@ -60,3 +60,9 @@ def print_items(a,b):
         print(j)
 
 print_items(1, 10)
+
+## O(a*b) and not O(n**2) with same reason
+def print_items(a,b):
+    for i in range(a):
+        for j in range(b):
+            print(i,j)
